@@ -1,0 +1,93 @@
+
+.tabbar-label {
+	color: white;
+	font-size: 10px;
+	line-height: .7;
+}
+
+.popover .picker-modal .toolbar,
+.picker-calendar .toolbar {
+	background-color: rgb(50,50,100);
+}
+.picker-calendar-day.picker-calendar-day-selected span {
+	color: rgb(50,50,100);
+}
+
+.panel, .panel li,.navbar, .subnavbar, .toolbar, .toolbar-inner,
+.list-block .swipeout-actions-right a.bg-duboblue, 
+.list-block .swipeout-actions-left a.bg-duboblue, 
+.modal-button, .modal-inner, .actions-modal-button, .actions-modal-label {
+	background-color: rgb(50,50,100);
+	color: #fff;
+}
+
+.panel li {
+	list-style: none;
+	list-style-position: inside;
+	font-size: 16px;
+	padding: 5px 0;
+}
+
+
+body.with-panel-left-cover .statusbar-overlay {
+    background: #333366;
+}
+
+div[class*="col-"] {
+  background: #fff;
+  text-align: center;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.row {
+  margin-bottom: 15px;
+}
+
+#login_frm .list-block input[type=text] {
+	color: #fff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px #333366 inset !important;
+	 -webkit-text-fill-color: white !important;
+}
+
+::-webkit-input-placeholder,
+:-ms-input-placeholder,
+::-moz-placeholder,
+:-moz-placeholder {
+	color: #666666;
+}
+
+.statusbar-overlay {
+    background: #333366;
+    /* We can add transition for smooth color animation */
+    -webkit-transition: 400ms;
+    transition: 400ms;
+}
+
+initial.list-block input[type=time].jaune,
+ .list-block input[type=number].jaune,
+  .list-block input[type=search].jaune,
+   .list-block input[type=text].jaune,
+    .list-block input[type=password].jaune,
+     .list-block input[type=email].jaune,
+      .list-block input[type=tel].jaune,
+       .list-block input[type=url].jaune,
+        .list-block input[type=date].jaune,
+         .list-block input[type=datetime-local].jaune,
+          .list-block select.jaune, .list-block textarea.jaune,
+           li.jaune, li.item-content.jaune,
+           .list-block ul.jaune {
+	background-color: #feebb1;
+}
+
+li.sva {
+	white-space: nowrap;
+	margin-left: -30px;
+	padding: 10px 0;
+}
